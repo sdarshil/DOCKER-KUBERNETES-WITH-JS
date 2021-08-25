@@ -1,0 +1,56 @@
+<script src="javascript.js"></script>
+<style>
+    body{
+        background-image: url(docker.gif);
+        text-align: center;
+    }
+    div#d1{
+        text-align: center;
+        text-shadow: cornsilk;
+        font-size: medium;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    div#d2{
+        background-color: whitesmoke;
+        text-align: center;
+        font-size: medium;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    div#d3{
+        background-color: lightsteelblue;
+        text-align: center;
+        border: solid black;
+    }
+    .class1{
+        font-size: medium;
+        font-family: 'Times New Roman', Times, serif;
+        }
+    .class2{
+        font-size: medium;
+        font-family: 'Times New Roman', Times, serif;
+
+        }
+
+</style>
+<body>
+    <img src="docker.jpg" height="60%"/>
+    <div id="d1" >
+        <b>Enter Docker Command To RUN :</b> <input type="text" id="in" class="class1">
+     </div>
+     <br>
+     <br>
+
+     <button onclick="dex()" class="class2">click to  run </button>
+     <br>
+     <br>
+     <div id="d2" >Your OutPut:</div>
+     <div id="d3" >
+         <pre id="pre">
+             here it is.....
+         </pre>
+     </div>
+
+</body>
+
+
+
